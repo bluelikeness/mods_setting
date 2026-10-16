@@ -1,0 +1,18 @@
+{
+  "name": "kckang-mods",
+  "owner": {
+    "name": "kckang"
+  },
+  "plugins": [
+    {
+      "name": "usage-band",
+      "source": "./usage-band",
+      "description": "입력창 바로 위에 5시간·주간 사용량과 초기화까지 남은 시간을 늘 보여준다"
+    },
+    {
+      "name": "session-cost",
+      "source": "./session-cost",
+      "description": "이번 세션 비용(원화)과 컨텍스트 사용량을 상태 줄에 보여준다"
+    }
+  ]
+}

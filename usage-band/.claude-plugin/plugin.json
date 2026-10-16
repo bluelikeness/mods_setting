@@ -1,0 +1,14 @@
+{
+  "name": "usage-band",
+  "version": "0.2.0",
+  "description": "프롬프트 위 띠 — 지난 대화 맥락으로 정한 마스코트 동물(쉬면 졸고, 일하면 걷고, 바쁘면 뛰고, 서브에이전트 수만큼 새끼) + 5시간·주간 한도와 초기화 시각",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "character": {
+      "type": "string",
+      "title": "시작 캐릭터",
+      "description": "비워 두면 지난 대화 맥락으로 정한다. black-cat 이면 검은 고양이로 시작한다(처음 한 번만 쓰인다).",
+      "default": ""
+    }
+  }
+}
